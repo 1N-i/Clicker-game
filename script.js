@@ -1,6 +1,5 @@
 let money = 0;
 let mineValue = 1
-let clicks = 0
 const elementResult = document.getElementById("money");
 elementResult.innerHTML = `Money: $${money}\nMine value: $${mineValue}`;
 

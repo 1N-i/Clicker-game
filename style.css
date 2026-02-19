@@ -1,8 +1,7 @@
 body {
   font-family: "Roboto Mono", monospace;
-  min-height: 600px;
-  background-color: gray;
-  background-size: 350px;
+  background-image: url("https://i.pinimg.com/736x/84/2d/3a/842d3afdbf860c1235d45d72d74dbab8.jpg");
+  background-size: 100%;
   background-position: center bottom;
   background-repeat: no-repeat;
 }
@@ -17,30 +16,54 @@ body {
 }
 
 .mine {
-  padding: 4px 8px;
-  border-radius: 10px;
+  padding: 15px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 12px;
   background: yellow;
-  color: black;
+  cursor: pointer;
+  border-radius: 16px;
+  border: bold;
+  border-color: orange;
+  border-width: 3px;
 }
 
-.upgrade {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  justify-content: center;
-  margin-top: 20px;
-  align-items: flex-start; 
-  justify-content: center; 
-  margin: 10px;
-  padding: 4px 8px;
-  border-radius: 10px;
-  background: darkgray;
-  text-align: center;
-  position: center;
+.mine:active { /*Being clicked*/
+  transform: scale(0.95);
 }
 
 .money {
   color: white;
   margin-top: 10px;
   white-space: pre-wrap;
+}
+
+.upgrade {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+  padding: 20px;
+  max-width: 80%;
+}
+
+.upgrade button {
+  background-color: gray;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Roboto Mono", monospace;
+  min-width: 150px;
+}
+
+.upgrade button:hover { /*Mouse on top*/
+  background-color: lightslategray;
+  transform: scale(1.05);
+}
+
+.upgrade button:active { /*Being clicked*/
+  transform: scale(0.95);
 }
