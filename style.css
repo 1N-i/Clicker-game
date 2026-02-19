@@ -67,3 +67,26 @@ body {
 .upgrade button:active { /*Being clicked*/
   transform: scale(0.95);
 }
+
+.win-button {
+  display: block;
+  margin-top: 25px;
+  padding: 20px 20px;
+  font-size: 20px;
+  background-color: gold;
+  color: black;
+  font-weight: bold;
+  border: 4px solid orange;
+  border-radius: 60px;
+  cursor: pointer;
+  font-family: "Roboto Mono", monospace;
+}
+
+.win-button:hover { /*Mouse on top*/
+  background-color: yellow;
+  transform: scale(1.15);
+}
+
+.win-button:active { /*Being clicked*/
+  transform: scale(0.85);
+}
