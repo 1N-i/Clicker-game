@@ -1,15 +1,29 @@
 <html>
     <head>
-        <title>Mine until $1000</title>
+        <title>Mine until $1.000.000</title>
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
         <div class="container">
             <h1 class="money" id="money"></h1>
-            <button class="mine" type="submit" onclick="Mine()">Guess</button>
-            <button class="upgrade" type="submit" onclick="WoodUpgrade()">Wood pickaxe ($5)<br>+$0.25 click value
-            </button>
+            <button class="mine" type="submit" onclick="Mine()">Mine</button>
+
+            <div class="upgrade">
+            <button onclick="WoodUpgrade()">Wood pickaxe ($10)<br>+$1 click value</button>
+
+            <button onclick="StoneUpgrade()">Stone pickaxe ($100)<br>+$5 click value</button>
+
+            <button onclick="IronUpgrade()">Iron pickaxe ($1.000)<br>+$25 click value</button>
+
+            <button onclick="GoldUpgrade()">Gold pickaxe ($10.000)<br>+150 click value</button>
+
+            <button onclick="DiamondUpgrade()">Diamond pickaxe ($50.000)<br>+$800 click value</button>
+
+            <button onclick="PlatinumUpgrade()">Platinum pickaxe ($200.000)<br>+$4.000 click value</button>
+
+            <button onclick="BedrockUpgrade()">Bedrock pickaxe ($500.000)<br>+$15.000 click value</button>
+            </div>
         </div>
         <script src="script.js"></script>
     </body>
