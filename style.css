@@ -1,0 +1,42 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 600px;
+  background-color: gray;
+  background-size: 350px;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex; 
+  flex-direction: column; 
+  align-items: flex-start; 
+  justify-content: center; 
+  height: 75vh;
+  padding: 40px;
+  text-align: center;
+}
+
+.mine {
+  margin: 2px 0 0 48px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: darkgray;
+}
+
+.upgrade {
+  align-items: flex-start; 
+  justify-content: center; 
+  margin: 2px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: darkgray;
+  text-align: center;
+  position: center;
+}
+
+.money {
+  color: white;
+  margin-top: 10px;
+  white-space: pre-wrap;
+}
